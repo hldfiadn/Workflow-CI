@@ -49,7 +49,7 @@ jobs:
           echo "Latest run_id: $RUN_ID"
 
       # Upload Confusion Matrix to GitHub Artifacts
-      - name: Upload confusion matrix artifact
+      - name: Upload to GitHub (Confusion Matrix Artifacts)
         uses: actions/upload-artifact@v4
         with:
           name: trained-model-artifacts
